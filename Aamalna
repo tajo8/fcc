@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> ﺷﺮﻛﺔ اﻟﻔﺮﺿﻲ اﻹﻧﺸﺎﺋﻴﺔ</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons1.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao - v4.9.1
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    .dropdown ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.dropdown:hover ul {
+  display: block;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a{
+  color:#fff
+}
+
+.containerer {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ 
+  </style>
+</head>
+<body>
+    <!-- <a href="https://api.whatsapp.com/send?phone=00966593302081&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a> -->
+      <div class="whats-float">
+        <a href="https://wa.me/00966593302081"
+           target="_blank">
+            <i class="fa fa-whatsapp"></i><span>WhatsApp<br><small>+966599012616</small></span>
+        </a>
+    </div>
+  <!-- ======= Top Bar ======= -->
+
+<p></p>
+<div class="">
+<img src="assets/img/aamalna.jpg" width="100%" height="100%">
+
+<div >
+<!-- <h2 style="text-align: center; padding-top: 20px;" id="imgg">المشاريع في صور</h2> -->
+
+</div>
+<p></p>
+<div class="contain" id="slideshoww" style="background: #222222;border: 1px solid #f58d2e;">
+
+<!-- Full-width images with number text -->
+<div class="mySlides">
+<div class="numbertext">1 / 6</div>
+  <img src="assets/img/proj1.jpg" style="width:100%" class="img img-fluid"  >
+</div>
+
+<div class="mySlides">
+<div class="numbertext">2 / 6</div>
+  <img src="assets/img/proj2.jpg" style="width:100%"  >
+</div>
+
+<div class="mySlides">
+<div class="numbertext">3 / 6</div>
+  <img src="assets/img/proj3.jpg" style="width:100%"  >
+</div>
+
+<div class="mySlides">
+<div class="numbertext">4 / 6</div>
+  <img src="assets/img/proj4.jpg" style="width:100%"  >
+</div>
+
+<div class="mySlides">
+<div class="numbertext">5 / 6</div>
+  <img src="assets/img/proj5.jpg" style="width:100%"  >
+</div>
+
+<div class="mySlides">
+<div class="numbertext">6 / 6</div>
+  <img src="assets/img/proj6.jpg" style="width:100%"  >
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Image text -->
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+
+<!-- Thumbnail images -->
+<div class="row">
+<div class="column">
+  <img class="demo cursor" src="assets/img/proj1.jpg" style="width:100%" onclick="currentSlide(1)"  >
+</div>
+<div class="column">
+  <img class="demo cursor" src="assets/img/proj2.jpg" style="width:100%" onclick="currentSlide(2)"  >
+</div>
+<div class="column">
+  <img class="demo cursor" src="assets/img/proj3.jpg" style="width:100%" onclick="currentSlide(3)" >
+</div>
+<div class="column">
+  <img class="demo cursor" src="assets/img/proj4.jpg" style="width:100%" onclick="currentSlide(4)" >
+</div>
+<div class="column">
+  <img class="demo cursor" src="assets/img/proj5.jpg" style="width:100%" onclick="currentSlide(5)"  >
+</div>
+<div class="column">
+  <img class="demo cursor" src="assets/img/proj6.jpg" style="width:100%" onclick="currentSlide(6)"  >
+</div>
+</div>
+</div>
+
+<!--end slideshow Section -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+ 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script >
+
+document.querySelectorAll('.dropdown').forEach(item => {
+  item.addEventListener('click', event => {
+    const dropdown = item.querySelector('ul');
+    dropdown.classList.toggle('show');
+  });
+});
+
+         // Get the navbar element
+const navbar = document.querySelector('#header');
+
+// Function to change the navbar background on scroll
+function handleScroll() {
+    if (window.scrollY > 0) {
+      navbar.style.backgroundColor = '#ffffffc7'; 
+     
+    } else {
+       
+        navbar.style.backgroundColor = 'whitesmoke';// Change back to a transparent background
+       
+    }
+    
+}
+
+// Attach the scroll event listener
+window.addEventListener('scroll', handleScroll);
+
+
+
+      
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+
+</html>
